@@ -6,6 +6,14 @@ module.exports = {
 		"CKEDITOR": true
 	},
 	"rules": {
+		// Possible candidates:
+		// "camelcase": [ "error" ],
+		// "no-multiple-empty-lines": "error",
+		// Things that should be introduced step-by-step:
+		// "no-else-return": "warn",
+		// "no-empty": "warn",
+		// "no-implicit-coercion": [ "warn", { "boolean": false } ],
+		"eol-last": [ "warn", "never" ],
 		"wrap-iife": [ 2, "inside" ],
 		"no-use-before-define": [
 			2,
@@ -28,10 +36,15 @@ module.exports = {
 		],
 		"no-eq-null": 2,
 		"no-eval": 2,
+		"no-extra-semi": "error",
+		"no-caller": "error" ,
+		"no-duplicate-case": "error",
 		"no-unused-expressions": 2,
 		"block-scoped-var": 2,
+		"brace-style": [ "error", "1tbs" ],
 		"no-loop-func": 2,
-		"no-invalid-this": 2,
+		// "no-invalid-this": 2,
+		"no-invalid-this": 0,
 		"curly": [
 			2,
 			"all"
@@ -84,6 +97,8 @@ module.exports = {
 		"no-multi-str": 2,
 		"no-mixed-spaces-and-tabs": 2,
 		"no-trailing-spaces": 2,
+		"object-curly-spacing": [ "error", "always" ],
+		"padded-blocks": [ "error", "never" ],
 		"max-len": [
 			2,
 			200
@@ -91,7 +106,7 @@ module.exports = {
 		"dot-notation": [
 			2,
 			{
-				"allowKeywords": true
+				"allowKeywords": false
 			}
 		],
 		"yoda": [
@@ -116,6 +131,7 @@ module.exports = {
 				"SwitchCase": 1
 			}
 		],
-		"semi": [ "error", "always" ]
+		"semi": [ "error", "always" ],
+		"valid-typeof": "error"
 	}
 };

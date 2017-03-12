@@ -13,45 +13,109 @@ module.exports = {
 		// "no-else-return": "warn",
 		// "no-empty": "warn",
 		// "no-implicit-coercion": [ "warn", { "boolean": false } ],
-		"eol-last": [ "warn", "never" ],
-		"wrap-iife": [ 2, "inside" ],
+		"array-bracket-spacing": [
+			2,
+			"always"
+		],
+		"block-scoped-var": 2,
+		"brace-style": [
+			"error",
+			"1tbs"
+		],
+		"comma-style": [
+			2,
+			"last"
+		],
+		"curly": [
+			2,
+			"all"
+		],
+		"dot-notation": [
+			2,
+			{
+				"allowKeywords": false
+			}
+		],
+		"eol-last": [
+			"warn",
+			"never"
+		],
+		"indent": [
+			1,
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"key-spacing": [
+			2,
+			{
+				"beforeColon": false,
+				"afterColon": true
+			}
+		],
+		"keyword-spacing": [
+			2,
+			{}
+		],
+		"linebreak-style": [
+			2,
+			"unix"
+		],
+		"max-len": [
+			2,
+			200
+		],
+		"new-cap": 0,
+		"no-caller": "error",
+		"no-cond-assign": [
+			2,
+			"except-parens"
+		],
+		"no-duplicate-case": "error",
+		"no-empty": 0,
+		"no-eq-null": 2,
+		"no-eval": 2,
+		"no-extra-semi": "error",
+		"no-invalid-this": 0,
+		"no-irregular-whitespace": 2,
+		"no-loop-func": 2,
+		"no-mixed-spaces-and-tabs": 2,
+		"no-multi-str": 2,
+		"no-spaced-func": 2,
+		"no-trailing-spaces": 2,
+		"no-undef": 2,
+		"no-unused-expressions": 2,
+		"no-unused-vars": 2,
 		"no-use-before-define": [
 			2,
 			{
 				"functions": false
 			}
 		],
-		"no-irregular-whitespace": 2,
-		"no-undef": 2,
-		"no-unused-vars": 2,
-		"new-cap": 0,
-		"no-empty": 0,
-		"strict": [
-			2,
-			"function"
+		"no-with": 2,
+		"object-curly-spacing": [
+			"error",
+			"always"
 		],
-		"no-cond-assign": [
+		"operator-linebreak": [
 			2,
-			"except-parens"
+			"after"
 		],
-		"no-eq-null": 2,
-		"no-eval": 2,
-		"no-extra-semi": "error",
-		"no-caller": "error" ,
-		"no-duplicate-case": "error",
-		"no-unused-expressions": 2,
-		"block-scoped-var": 2,
-		"brace-style": [ "error", "1tbs" ],
-		"no-loop-func": 2,
-		// "no-invalid-this": 2,
-		"no-invalid-this": 0,
-		"curly": [
-			2,
-			"all"
+		"padded-blocks": [
+			"error",
+			"never"
 		],
-		"keyword-spacing": [
+		"quotes": [
 			2,
-			{}
+			"single",
+			{
+				"avoidEscape": true
+			}
+		],
+		"semi": [
+			"error",
+			"always"
 		],
 		"space-before-blocks": [
 			2,
@@ -61,30 +125,11 @@ module.exports = {
 			2,
 			"never"
 		],
-		"no-spaced-func": 2,
-		"array-bracket-spacing": [
-			2,
-			"always"
-		],
 		"space-in-parens": [
 			2,
 			"always"
 		],
-		"key-spacing": [
-			2,
-			{
-				"beforeColon": false,
-				"afterColon": true
-			}
-		],
-		"comma-style": [
-			2,
-			"last"
-		],
-		"operator-linebreak": [
-			2,
-			"after"
-		],
+		"space-infix-ops": 2,
 		"space-unary-ops": [
 			2,
 			{
@@ -92,46 +137,18 @@ module.exports = {
 				"nonwords": false
 			}
 		],
-		"space-infix-ops": 2,
-		"no-with": 2,
-		"no-multi-str": 2,
-		"no-mixed-spaces-and-tabs": 2,
-		"no-trailing-spaces": 2,
-		"object-curly-spacing": [ "error", "always" ],
-		"padded-blocks": [ "error", "never" ],
-		"max-len": [
+		"strict": [
 			2,
-			200
+			"function"
 		],
-		"dot-notation": [
+		"valid-typeof": "error",
+		"wrap-iife": [
 			2,
-			{
-				"allowKeywords": false
-			}
+			"inside"
 		],
 		"yoda": [
 			2,
 			"never"
-		],
-		"linebreak-style": [
-			2,
-			"unix"
-		],
-		"quotes": [
-			2,
-			"single",
-			{
-				"avoidEscape": true
-			}
-		],
-		"indent": [
-			1,
-			"tab",
-			{
-				"SwitchCase": 1
-			}
-		],
-		"semi": [ "error", "always" ],
-		"valid-typeof": "error"
+		]
 	}
 };

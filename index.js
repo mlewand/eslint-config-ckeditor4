@@ -72,6 +72,7 @@ module.exports = {
 			2,
 			"except-parens"
 		],
+		"no-debugger": "error",
 		"no-duplicate-case": "error",
 		"no-empty": 0,
 		"no-eq-null": 2,

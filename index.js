@@ -94,6 +94,7 @@ module.exports = {
 				"functions": false
 			}
 		],
+		"no-whitespace-before-property": 2,
 		"no-with": 2,
 		"object-curly-spacing": [
 			"error",
@@ -106,6 +107,10 @@ module.exports = {
 		"padded-blocks": [
 			"error",
 			"never"
+		],
+		"quote-props": [
+			"error",
+			"as-needed"
 		],
 		"quotes": [
 			2,

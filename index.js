@@ -82,6 +82,11 @@ module.exports = {
 		"no-irregular-whitespace": 2,
 		"no-loop-func": 2,
 		"no-mixed-spaces-and-tabs": 2,
+		"no-multi-spaces": [ "error", {
+			exceptions: {
+				"Property": false
+			}
+		} ],
 		"no-multi-str": 2,
 		"no-spaced-func": 2,
 		"no-trailing-spaces": 2,

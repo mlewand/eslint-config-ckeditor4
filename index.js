@@ -152,6 +152,10 @@ module.exports = {
 			2,
 			"function"
 		],
+		"unicode-bom": [
+			"error",
+			"never"
+		],
 		"valid-typeof": "error",
 		"wrap-iife": [
 			2,

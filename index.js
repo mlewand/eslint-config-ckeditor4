@@ -37,8 +37,8 @@ module.exports = {
 			}
 		],
 		"eol-last": [
-			"warn",
-			"never"
+			"error",
+			"always"
 		],
 		"indent": [
 			1,

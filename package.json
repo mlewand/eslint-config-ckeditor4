@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ckeditor4",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint config for CKEditor4.",
   "main": "index.js",
   "repository": {
